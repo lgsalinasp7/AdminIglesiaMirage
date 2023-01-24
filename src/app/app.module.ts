@@ -85,6 +85,7 @@ import {TooltipModule} from 'primeng/tooltip';
 import {TreeModule} from 'primeng/tree';
 import {TreeTableModule} from 'primeng/treetable';
 import {VirtualScrollerModule} from 'primeng/virtualscroller';
+import {FullCalendarModule} from '@fullcalendar/angular';
 
 // Application Components
 import {AppComponent} from './app.component';
@@ -179,6 +180,7 @@ import {AppCodeModule} from './blocks/app-code/app.code.component';
         FieldsetModule,
         FileUploadModule,
         GalleriaModule,
+        FullCalendarModule,
         ImageModule,
         InplaceModule,
         InputNumberModule,
@@ -278,8 +280,7 @@ import {AppCodeModule} from './blocks/app-code/app.code.component';
         CountryService, CustomerService, EventService, IconService, NodeService,
         PhotoService, ProductService, MenuService, BreadcrumbService, ConfigService
     ],
-    bootstrap: [AppComponent],
-    schemas: [CUSTOM_ELEMENTS_SCHEMA]
+    bootstrap: [AppComponent]
 })
 export class AppModule {
 }
