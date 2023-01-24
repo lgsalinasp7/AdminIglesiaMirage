@@ -36,7 +36,6 @@
                             "node_modules/prismjs/prism.js",
                             "node_modules/prismjs/components/prism-typescript.js"
                         ]
-                        
                     },
                     "configurations": {
                         "production": {
